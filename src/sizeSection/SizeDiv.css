@@ -1,0 +1,31 @@
+.ButtonsDiv {
+    display: grid;
+
+    grid-template-columns: repeat(4,auto);
+}
+
+.SizeDiv {
+    
+    padding: 10rem;
+    padding-top: 3rem;
+}
+
+@media only screen and (max-width: 960px) {
+    .ButtonsDiv {
+        display:flex;
+        margin: 0;
+    }
+    .SizeDiv {
+        position: relative;
+        display: inline-block;
+    
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 3rem;
+        padding-bottom:0;
+    }
+    .SizeDiv h1{
+        font-size: 1.6rem;
+    }
+  }

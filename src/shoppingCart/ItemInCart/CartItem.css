@@ -1,0 +1,59 @@
+.cart-item-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.cart-photo {
+  width: 15%;
+  margin: 1.3rem;
+}
+
+.info-div {
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+.info-div h1 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.info-div h2 {
+    color: rgb(109, 106, 106);
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+
+
+.price-and-buttons {
+  margin-right: 1.5rem;
+}
+.price-and-buttons h2 {
+    color: rgb(255, 196, 0);
+    font-size: 1.2rem;
+    margin-right: 0;
+}
+.increment-buttons {
+    display: flex;
+    width:2.2rem;
+    
+}
+
+.increment-buttons button {
+    background-color: black;
+    color:white;
+}
+
+.increment-buttons button:hover{
+    border: 1px solid white;
+}
+
+
+
+.price-and-buttons img {
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-left: 2rem;
+}
